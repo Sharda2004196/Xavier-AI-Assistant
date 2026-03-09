@@ -122,6 +122,7 @@ Click the Chat button to start talking!
 I want to be transparent about this — the assistant runs
 on my local machine (localhost:5678) which cannot be
 accessed publicly without additional infrastructure setup.
+
 Deploying it publicly would require either:
 A cloud server (AWS/Railway/VPS) to host n8n 24/7
 Or exposing localhost via a tunneling tool like ngrok
@@ -131,23 +132,32 @@ building and documenting the workflow correctly over
 infrastructure deployment. A screen recording and
 workflow screenshots are provided above as proof of
 working functionality.
-Future plan: Deploy on Railway or n8n Cloud free
+
+**Future plan**: Deploy on Railway or n8n Cloud free
 tier once I explore cloud deployment as a next step
 in my learning journey.
 
 ## 📚 What I Learned
 
 Designing agentic AI workflows with multiple tools
+
 Connecting and configuring external APIs without writing code
+
 Implementing persistent memory in an AI system
+
 Understanding how LLM agents decide which tool to call
+
 Workflow debugging and error handling in n8n
 
 ## 🚀 Future Improvements
 [ ] Add Gmail integration to read and summarise emails
+
 [ ] Connect Google Calendar for scheduling assistance
+
 [ ] Add a Telegram interface for mobile access
+
 [ ] Deploy on n8n Cloud for 24/7 availability
+
 [ ] Add more memory tools (delete memory, list all memories)
 
 ## 👤 Author
