@@ -117,7 +117,8 @@ memory_value (string)
 Toggle the Activate switch in top right
 Click the Chat button to start talking!
 
-⚠️ Why No Live Demo Link?
+##⚠️ Why No Live Demo Link?
+
 I want to be transparent about this — the assistant runs
 on my local machine (localhost:5678) which cannot be
 accessed publicly without additional infrastructure setup.
@@ -134,21 +135,22 @@ Future plan: Deploy on Railway or n8n Cloud free
 tier once I explore cloud deployment as a next step
 in my learning journey.
 
-📚 What I Learned
+##📚 What I Learned
+
 Designing agentic AI workflows with multiple tools
 Connecting and configuring external APIs without writing code
 Implementing persistent memory in an AI system
 Understanding how LLM agents decide which tool to call
 Workflow debugging and error handling in n8n
 
-🚀 Future Improvements
+##🚀 Future Improvements
 [ ] Add Gmail integration to read and summarise emails
 [ ] Connect Google Calendar for scheduling assistance
 [ ] Add a Telegram interface for mobile access
 [ ] Deploy on n8n Cloud for 24/7 availability
 [ ] Add more memory tools (delete memory, list all memories)
 
-👤 Author
+##👤 Author
 Sharda Vatsal Bhat
 LinkedIn:https://linkedin.com/in/sharda-vatsal-bhat-73b03729
 GitHub:https://github.com/Sharda2004196
