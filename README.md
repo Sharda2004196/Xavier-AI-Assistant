@@ -53,20 +53,22 @@ modern no-code/low-code tools.
 ---
 
 ## 🏗️ Architecture
-[Chat Trigger]
-│
-▼
-[AI Agent — Xavier]
-│
-├──── Language Model: GPT-4.1 (OpenRouter)
-├──── Memory: Last 20 messages (Buffer Window)
-│
-└──── Tools:
-├── 🔍 DuckDuckGo Search
-├── 📖 Wikipedia Lookup
-├── 🧠 Get Memories (retrieve)
-├── ➕ Insert Memory (save new)
-└── ✏️ Update Memory (modify existing)
+
+**Flow:**
+
+**[Chat Trigger]** → **[AI Agent — Pibbs]**
+
+**AI Agent connects to:**
+
+| Component | Type | Details |
+|-----------|------|---------|
+| 🤖 GPT-4.1 | Language Model | Via OpenRouter API |
+| 💾 Buffer Window | Short-term Memory | Last 20 messages |
+| 🔍 DuckDuckGo | Tool | Real-time web search |
+| 📖 Wikipedia | Tool | Deep knowledge lookup |
+| 🧠 Get Memories | Tool | Retrieve saved facts |
+| ➕ Insert Memory | Tool | Save new information |
+| ✏️ Update Memory | Tool | Modify existing facts |
 ---
 
 ## 🎬 Demo
