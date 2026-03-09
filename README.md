@@ -76,7 +76,7 @@ modern no-code/low-code tools.
 ### Workflow in Action
 
 
-![Demo](demo.gif)
+![Demo](Demo.mp4)
 
 
 
