@@ -3,7 +3,7 @@
 
 
 
-![Workflow](workflow.png)
+![Workflow](Workflow.jpg)
 
 
 
@@ -81,7 +81,7 @@ modern no-code/low-code tools.
 ### Workflow Canvas
 
 
-![Workflow Architecture](workflow.png)
+![Workflow Architecture](Workflow.jpg)
 
 
 
