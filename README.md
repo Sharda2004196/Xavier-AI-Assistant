@@ -98,7 +98,7 @@ modern no-code/low-code tools.
 ### Steps
 
 1. **Clone this repository**
-git clone https://github.com/YOUR-USERNAME/pibbs-ai-assistant
+git clone https://github.com/Sharda2004196/Xavier-AI-Assistant
 
 2. **Import the workflow**
 Open your n8n instance
